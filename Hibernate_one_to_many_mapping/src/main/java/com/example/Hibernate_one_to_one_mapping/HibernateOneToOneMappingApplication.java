@@ -35,11 +35,11 @@ public class HibernateOneToOneMappingApplication {
 
 //			createInstructorWithCourses(appDAO);
 
- 			findInstructorWithCourses(appDAO);
+// 			findInstructorWithCourses(appDAO);
 
 // 			findCoursesForInstructor(appDAO);
 
-//			findInstructorWithCoursesJoinFetch(appDAO);
+			findInstructorWithCoursesJoinFetch(appDAO);
 		};
 	}
 	private void findInstructorWithCoursesJoinFetch(AppDAO appDAO) {
